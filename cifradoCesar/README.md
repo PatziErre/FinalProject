@@ -43,6 +43,6 @@ En esta mini-aplicación, vamos a aplicar el algoritmo de Cifrado de Caesar para
 
 6. Fin
 
- ![DiagramaCifradoCesar](DiagramaCifradoCesar.jpg)
+ ![Diagrama de Cifrado Cesar](DiagramaCifradoCesar.jpg)
 
 ````

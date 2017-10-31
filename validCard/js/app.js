@@ -1,6 +1,6 @@
 // Pedimos el número de tarjeta
 var numeroDeTarjeta = prompt("Ingresa el número de tarjeta a validar");
-// Lo pasamos al array para comprobar
+// Lo pasamos a la función para comprobar
 isValidCard(numeroDeTarjeta);
 
 function isValidCard(numeroDeTarjeta) {
@@ -18,14 +18,16 @@ function isValidCard(numeroDeTarjeta) {
     // Recorrer uno por uno los dígitos de la tarjejta inversa
     for (var i = 0; i< tarjetaInversa.length; i++){
       
-      // Si el número esta en una posición impar, lo agregamos tal cual al arreglo que vamos a sumar
+      // Si el número esta en una posición impar, lo agregamos tal cual al 
+      //arreglo que vamos a sumar.
 		  if (i == 0 || i % 2 == 0){
         tarjetaDigitalizada[i] = parseInt(tarjetaInversa[i]);
       }
 
 		  if (i % 2 != 0){
         var digitoDoble = tarjetaInversa[i] * 2;
-        // Si el número esta en posición par y su suma al doble es mayor a 10, sumamos sus dos dígitos
+        // Si el número esta en posición par y su suma al doble es mayor a 10, 
+        //sumamos sus dos dígitos.
         if (digitoDoble >=10) {
           var arregloDecimal = digitoDoble.toString().split("");
           // Y los agregamos a su posición en el arreglo cómo suma
