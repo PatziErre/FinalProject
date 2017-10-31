@@ -29,4 +29,4 @@ En esta mini-aplicación, vamos a aplicar el algoritmo de Luhn para informarle a
 11. FIN
 
 ````
-![Diagrama Tarjeta de credito válida](DiagramaValidCard.jpg)
+![Diagrama Tarjeta de credito válida](./assets/images/DiagramaValidCard.jpg)
