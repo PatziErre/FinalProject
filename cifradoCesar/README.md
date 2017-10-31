@@ -38,11 +38,13 @@ En esta mini-aplicación, vamos a aplicar el algoritmo de Cifrado de Caesar para
     5.3 ITERAR en FOR el largo de la cadena ingresada
     5.4 Reasignar con charCodeAt la posicion unicode de la palabra actual.
     5.5 Reasignar la posición unicode para obtener el nuevo código ASCII considerando la reubicación de -7 posiciones.
-    5.6 Concatenar a mensajeDescifrado el nuevo caracter desccifrado
+    5.6 Concatenar a mensajeDescifrado el nuevo caracter descifrado
     5.7 MOSTRAR con alert el valor mensajeDescifrado
 
 6. Fin
 
- ![Diagrama de Cifrado Cesar](DiagramaCifradoCesar.jpg)
+ 
 
 ````
+
+![Diagrama de Cifrado Cesar](./assets/images/DiagramaCifradoCesar.jpg)
